@@ -6,11 +6,7 @@
       <div class="grid grid-cols-4 gap-2 lg:grid-cols-4 lg:gap-4">
         <div v-for="photo in photos" class="h-[300px] rounded-lg bg-white dark:bg-gray-800">
           <a class="relative block h-[200px] overflow-hidden rounded">
-            <Image
-              alt="Image"
-              preview
-              class="block h-full w-full object-cover object-center"
-            >
+            <Image alt="Image" preview class="block h-full w-full object-cover object-center">
               <template #indicatoricon>
                 <i class="pi pi-search"></i>
               </template>
