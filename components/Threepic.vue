@@ -19,7 +19,7 @@
               <i class="pi pi-search"></i>
             </template>
             <template #image>
-              <NuxtImg
+              <img
                 src="/img/ac1000.png"
                 format="webp"
                 alt="image"
@@ -28,7 +28,7 @@
               />
             </template>
             <template #preview="slotProps">
-              <NuxtImg
+              <img
                 class="h-[90vh]"
                 src="/img/ac1000.png"
                 format="webp"
@@ -45,7 +45,7 @@
               <i class="pi pi-search"></i>
             </template>
             <template #image>
-              <NuxtImg
+              <img
                 src="/img/1237.jpg"
                 format="webp"
                 alt="image"
@@ -54,7 +54,7 @@
               />
             </template>
             <template #preview="slotProps">
-              <NuxtImg
+              <img
                 class="h-[90vh]"
                 src="/img/1237.jpg"
                 format="webp"
@@ -71,7 +71,7 @@
               <i class="pi pi-search"></i>
             </template>
             <template #image>
-              <NuxtImg
+              <img
                 src="/img/cooling_144_144.jpeg"
                 format="webp"
                 alt="image"
@@ -80,7 +80,7 @@
               />
             </template>
             <template #preview="slotProps">
-              <NuxtImg
+              <img
                 class="h-[90vh]"
                 src="/img/cooling_144_144.jpeg"
                 format="webp"
@@ -99,8 +99,8 @@
               <i class="pi pi-search"></i>
             </template>
             <template #image>
-              <NuxtImg
-                src="img/U351.jpg"
+              <img
+                src="/img/U351.jpg"
                 format="webp"
                 alt="image"
                 width="250"
@@ -108,9 +108,9 @@
               />
             </template>
             <template #preview="slotProps">
-              <NuxtImg
+              <img
                 class="h-[90vh]"
-                src="img/U351.jpg"
+                src="/img/U351.jpg"
                 format="webp"
                 alt="preview"
                 sizes="100vw sm:50vw md:1000px"

@@ -1,10 +1,10 @@
 
 <template>
   <div class="border-b">
-      <MegaMenu :model="items"class="justify-between">
+      <MegaMenu :model="items"class="justify-between px-40">
           <template #start>
             <nuxt-link to="/" class="flex">
-              <NuxtImg
+              <img
                 src="/acergadgetlogo.png"
                 width="100px"
                 alt="logo"
@@ -31,9 +31,6 @@
                   <Button :label="item.label" outlined />
               </div>
           </template>
-          <!-- <template #end>
-              <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
-          </template> -->
       </MegaMenu>
   </div>
 </template>

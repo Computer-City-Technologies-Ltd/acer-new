@@ -4,7 +4,7 @@
       <div class="-m-1 flex flex-wrap shadow-lg md:-m-2">
         <div class="flex w-1/2 flex-wrap">
           <div class="w-1/2 p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/1.jpg"
@@ -14,7 +14,7 @@
             />
           </div>
           <div class="w-1/2 p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/8.jpg"
@@ -24,7 +24,7 @@
             />
           </div>
           <div class="w-full p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/9.jpg"
@@ -36,7 +36,7 @@
         </div>
         <div class="flex w-1/2 flex-wrap">
           <div class="w-full p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/10.jpg"
@@ -46,7 +46,7 @@
             />
           </div>
           <div class="w-1/2 p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/3.jpg"
@@ -56,7 +56,7 @@
             />
           </div>
           <div class="w-1/2 p-1 md:p-2">
-            <NuxtImg
+            <img
               alt="gallery"
               class="block h-full w-full object-cover object-center"
               src="/img/8.jpg"

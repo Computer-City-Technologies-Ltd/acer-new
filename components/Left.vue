@@ -4,7 +4,7 @@
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
       <div class="mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-        <NuxtImg
+        <img
           class="rounded object-cover object-center"
           alt="hero"
           src="/img/U351.jpg"

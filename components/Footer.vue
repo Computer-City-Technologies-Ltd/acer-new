@@ -8,7 +8,7 @@ import { NuxtImg } from '#build/components';
         <a
           class="title-font flex items-center justify-center font-medium text-gray-900 dark:text-white md:justify-start"
         >
-          <NuxtImg src="/acer.svg" height="20" width="83" alt="logo" />
+          <img src="/acer.svg" height="20" width="83" alt="logo" />
           <span class="ml-3 text-xl"> Gadget</span>
         </a>
         <p class="mt-4 text-sm text-gray-500 dark:text-white sm:ml-6 sm:mt-0">© 2024-2025 Computer City Technologies Ltd.</p>

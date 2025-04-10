@@ -1,9 +1,10 @@
 <template>
   <div>
     <Topbar class="hidden md:block" />
-    <div class="container mx-auto">
+    <Navbar />
+    <!-- <div class="container mx-auto">
       <Navbar />
-    </div>
+    </div> -->
     <NuxtPage />
     <Footer />
   </div>

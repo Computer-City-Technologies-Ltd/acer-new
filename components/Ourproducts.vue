@@ -3,7 +3,7 @@
     <!-- component -->
     <section>
         <div class="container mx-auto">
-            <h1 class="text-center text-5xl pb-12 text-gray-900 dark:text-white sm:text-4xl">Our Products:</h1>
+            <h1 class="text-center text-5xl pb-12 text-gray-900 dark:text-white sm:text-4xl">Our Products</h1>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-28 lg:gap-y-16 mt-10 mb-10">
 

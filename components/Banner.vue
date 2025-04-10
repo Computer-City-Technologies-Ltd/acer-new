@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-0">
-    <NuxtImg src="/img/banner-acer.jpg" format="webp" class="absolute inset-0 h-full w-full object-cover" width="1920"
+    <img src="/img/banner-acer.jpg" format="webp" class="absolute inset-0 h-full w-full object-cover" width="1920"
       alt="banner" />
 
     <div class="relative bg-gray-900 bg-opacity-0">

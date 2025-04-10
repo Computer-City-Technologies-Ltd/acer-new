@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
-        <NuxtImg
+        <img
           class="rounded object-cover object-center"
           alt="hero"
           src="/img/cooling_new_160_160.jpeg"

@@ -1,4 +1,15 @@
-Acer-Gadget - a Nuxt JS project for ComCityBD.
+ACER - a Nuxt project for ComCityBD.
+This is a frontend website. This site is using API of 'https://comcitybd.com/' as a backend.
+
+# Used Tools:
+
+Nuxt 3, Tailwind CSS and Primevue (Tailwind CSS Package).
+
+# Development Info:
+
+Md. Rezwan Saki Alin.
+website: https://alinsworld.com/
+Start Date: 03-March-2025
 
 # Nuxt Minimal Starter
 

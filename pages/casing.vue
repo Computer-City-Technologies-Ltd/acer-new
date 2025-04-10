@@ -6,7 +6,7 @@
       <!-- product 1 -->
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full" v-for="product in products" :key="product.id">
         <a :href="`https://comcitybd.com/product/${product.slug}`" target="_blank" class="block relative rounded overflow-hidden hover:scale-110">
-          <NuxtImg alt="ecommerce" :src="product.thumbnail" width="256" height="256" />
+          <img alt="ecommerce" :src="product.thumbnail" width="256" height="256" />
         </a>
         <div class="mt-4">
           <a :href="`https://comcitybd.com/product/${product.slug}`" target="_blank">

@@ -11,7 +11,7 @@
                 <i class="pi pi-search"></i>
               </template>
               <template #image>
-                <NuxtImg
+                <img
                   :src="photo.image"
                   format="webp"
                   alt="image"
@@ -20,7 +20,7 @@
                 />
               </template>
               <template #preview="slotProps">
-                <NuxtImg
+                <img
                   class="h-[90vh]"
                   :src="photo.image"
                   format="webp"

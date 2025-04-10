@@ -19,7 +19,7 @@
           <div class="mb-0">
             <div class="relative mx-auto">
               <nuxt-link to="/">
-                <NuxtImg
+                <img
                   :src="slotProps.data.feature_image"
                   format="webp"
                   width="350"
