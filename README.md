@@ -1,5 +1,9 @@
-ACER - a Nuxt project for ComCityBD.
-This is a frontend website. This site is using API of 'https://comcitybd.com/' as a backend.
+# About The Project:
+
+ACER - a Nuxt project for ComCityBD. <br>
+This is a frontend website. This site is using API of 'https://comcitybd.com/' as a backend. <br><br><br>
+
+Last modify: A single product page design with api product show.
 
 # Used Tools:
 

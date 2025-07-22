@@ -8,8 +8,8 @@
           v-for="product in products"
           :key="product.id"
         >
-          <NuxtLink
-            :to="`/product/${product.slug}`"
+          <a
+            :href="`https://comcitybd.com/product/${product.slug}`"
             target="_blank"
             class="block relative rounded overflow-hidden hover:scale-110"
           >
@@ -19,9 +19,12 @@
               width="256"
               height="256"
             />
-          </NuxtLink>
+          </a>
           <div class="mt-4">
-            <NuxtLink :to="`/product/${product.slug}`" target="_blank">
+            <a
+              :href="`https://comcitybd.com/product/${product.slug}`"
+              target="_blank"
+            >
               <h2
                 class="text-gray-900 dark:text-gray-200 title-font text-lg font-medium"
               >
@@ -37,7 +40,7 @@
                   >Tk. {{ product.api.retailprice }}</span
                 >
               </p>
-            </NuxtLink>
+            </a>
           </div>
         </div>
         <!-- end of product 1 -->
