@@ -10,7 +10,6 @@
         >
           <NuxtLink
             :to="`/product/${product.slug}`"
-            target="_blank"
             class="block relative rounded overflow-hidden hover:scale-110"
           >
             <img
@@ -21,7 +20,7 @@
             />
           </NuxtLink>
           <div class="mt-4">
-            <NuxtLink :to="`/product/${product.slug}`" target="_blank">
+            <NuxtLink :to="`/product/${product.slug}`">
               <h2
                 class="text-gray-900 dark:text-gray-200 title-font text-lg font-medium"
               >
