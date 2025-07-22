@@ -1,6 +1,21 @@
 <template>
   <section class="bg-gray-100 text-gray-800">
     <div class="max-w-7xl mx-auto px-4 py-12" v-if="product">
+      <!-- breadcrum -->
+      <div class="text-sm text-gray-600 flex items-center gap-2 mb-4">
+        <NuxtLink to="/" class="text-blue-600 hover:underline">Home</NuxtLink>
+        <span>/</span>
+        <NuxtLink
+          :to="`/${product.category?.slug}`"
+          class="text-blue-600 hover:underline"
+        >
+          {{ product.category?.name }}
+        </NuxtLink>
+        <span>/</span>
+        <span class="font-semibold text-gray-800">{{ product.name }}</span>
+      </div>
+      <!-- /breadcrum -->
+
       <div
         class="flex flex-col lg:flex-row gap-10 bg-white p-6 rounded-2xl shadow-lg"
       >
