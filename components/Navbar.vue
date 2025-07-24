@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto border-b">
+  <div class="container mx-auto">
     <MegaMenu :model="items" class="justify-between">
       <!-- Logo -->
       <template #start>
@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .p-megamenu {
   border: none;
   background: none;
