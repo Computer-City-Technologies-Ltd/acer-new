@@ -1,7 +1,6 @@
 <template>
-  <div class="container mx-auto border-b">
-    <MegaMenu :model="items" class="justify-between">
-      <!-- Logo -->
+  <div class="container border-b">
+    <MegaMenu :model="items" class="justify-between px-40">
       <template #start>
         <nuxt-link to="/" class="flex">
           <img
@@ -13,7 +12,6 @@
         </nuxt-link>
       </template>
 
-      <!-- Menu -->
       <template #item="{ item }" class="justify-end">
         <Nuxt-Link
           :to="item.route"
