@@ -38,6 +38,7 @@
               </template>
             </Image>
           </div>
+
           <div
             class="flex w-full max-w-[406px] items-center justify-between lg:max-w-full lg:px-0"
           >

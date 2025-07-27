@@ -1,5 +1,7 @@
 <template>
-  <section class="body-font rounded text-gray-600 dark:text-white shadow-lg bg-white dark:bg-gray-900">
+  <section
+    class="body-font rounded text-gray-600 dark:text-white shadow-lg bg-white dark:bg-gray-900"
+  >
     <div
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
@@ -21,10 +23,18 @@
           Fan
         </h1>
         <p class="mb-8 leading-relaxed">
-          Acer offers a range of cooling fans designed to optimize airflow and enhance thermal performance in its laptops and desktops, particularly within the Predator gaming lineup. These fans, such as the AeroBlade 3D Fan Technology, feature ultra-thin metal blades that increase airflow while minimizing noise. 
+          Acer Gadget offers a range of cooling fans designed to optimize
+          airflow and enhance thermal performance in its laptops and desktops,
+          particularly within the Predator gaming lineup. These fans, such as
+          the AeroBlade 3D Fan Technology, feature ultra-thin metal blades that
+          increase airflow while minimizing noise.
         </p>
         <div class="flex justify-center">
-            <a href="/fan" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">All Casings</a>
+          <a
+            href="/fan"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >All Casings</a
+          >
         </div>
       </div>
     </div>

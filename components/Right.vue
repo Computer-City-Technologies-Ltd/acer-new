@@ -1,5 +1,7 @@
 <template>
-  <section class="body-font rounded bg-gray-100 text-gray-600 dark:text-white dark:bg-gray-700">
+  <section
+    class="body-font rounded bg-gray-100 text-gray-600 dark:text-white dark:bg-gray-700"
+  >
     <div
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
@@ -12,10 +14,19 @@
           Liquid Cooler
         </h1>
         <p class="mb-8 leading-relaxed dark:text-gray-100">
-          The Acer Liquid Cooler is an advanced cooling solution designed to enhance the performance of high-end gaming laptops and desktops by efficiently dissipating heat. This external cooling system uses liquid cooling technology to maintain lower temperatures, ensuring optimal performance even during intense gaming sessions or demanding tasks like video editing and 3D rendering. 
+          The Acer Gadget Liquid Cooler is an advanced cooling solution designed
+          to enhance the performance of high-end gaming laptops and desktops by
+          efficiently dissipating heat. This external cooling system uses liquid
+          cooling technology to maintain lower temperatures, ensuring optimal
+          performance even during intense gaming sessions or demanding tasks
+          like video editing and 3D rendering.
         </p>
         <div class="flex justify-center">
-            <a href="/cooling" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">All Cooling</a>
+          <a
+            href="/cooling"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >All Cooling</a
+          >
         </div>
       </div>
       <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">

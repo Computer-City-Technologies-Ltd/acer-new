@@ -1,5 +1,7 @@
 <template>
-  <section class="body-font rounded text-gray-600 dark:text-white shadow-lg bg-white dark:bg-gray-900">
+  <section
+    class="body-font rounded text-gray-600 dark:text-white shadow-lg bg-white dark:bg-gray-900"
+  >
     <div
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
@@ -21,10 +23,18 @@
           Casing U300
         </h1>
         <p class="mb-8 leading-relaxed">
-          The Acer Casing U300 is a sleek and durable gadget case designed to provide optimal protection for various Acer devices. Crafted with precision, the U300 casing features a modern, slim profile, offering an ideal balance between portability and safeguarding your gadgets from daily wear and tear. 
+          The Acer Gadget Casing U300 is a sleek and durable gadget case
+          designed to provide optimal protection for various Acer Gadget
+          devices. Crafted with precision, the U300 casing features a modern,
+          slim profile, offering an ideal balance between portability and
+          safeguarding your gadgets from daily wear and tear.
         </p>
         <div class="flex justify-center">
-            <a href="/casing" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">All Casings</a>
+          <a
+            href="/casing"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >All Casings</a
+          >
         </div>
       </div>
     </div>

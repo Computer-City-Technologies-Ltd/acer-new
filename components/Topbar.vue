@@ -2,8 +2,15 @@
   <div class="bg-black py-2 text-gray-200">
     <div class="container mx-auto flex justify-between">
       <div>
-        <i class="pi pi-th-large cursor-pointer text-lima-400" @click="toggleitem" style="font-size: 1rem"></i>
-        <div v-if="show" class="absolute z-10 grid w-36 grid-flow-col grid-rows-4 gap-4 bg-black py-3 text-center">
+        <i
+          class="pi pi-th-large cursor-pointer text-lima-400"
+          @click="toggleitem"
+          style="font-size: 1rem"
+        ></i>
+        <div
+          v-if="show"
+          class="absolute z-10 grid w-36 grid-flow-col grid-rows-4 gap-4 bg-black py-3 text-center"
+        >
           <div>
             <nuxt-link to="/casing">
               <span class="material-symbols-outlined"> devices </span>
@@ -27,11 +34,16 @@
         </div>
       </div>
       <div class="text-lime-400 dark:text-blue-300 rounded-border">
-        Acer Bangladesh Product Provided by Computer City Technologies Ltd.
+        Acer Gadget Bangladesh Product Provided by Computer City Technologies
+        Ltd.
       </div>
       <div>
-        <i class="cursor-pointer text-lima-400" :class="sunmoon ? 'pi pi-sun' : 'pi pi-moon'" @click="toggle"
-          style="font-size: 1rem"></i>
+        <i
+          class="cursor-pointer text-lima-400"
+          :class="sunmoon ? 'pi pi-sun' : 'pi pi-moon'"
+          @click="toggle"
+          style="font-size: 1rem"
+        ></i>
       </div>
     </div>
   </div>
